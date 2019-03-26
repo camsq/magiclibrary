@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MLO</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="http://code.jquery.com/jquery-3.2.1.js"></script>
+  <script type="text/javascript">
+    $(window).on('scroll', function(){
+      if($(window).scrollTop()){
+        $('nav').addClass('black');
+      }
+      else {
+        $('nav').removeClass('black');
+      }
+    })
+  </script>
+</head>
+
+<body>
+  <div class="wrapper">
+    <nav>
+      <div class="logo">Magic Library Online</div>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Cards</a></li>
+        <li><a href="#">Informações</a></li>
+        <li><a class="active" href="#">Adicional</a></li>
+      </ul>
+    </nav>
+    <section id="sec1"></section>
+    <section class="content">
+      <p>
+          Magic: the Gathering, M:TG, MTG ou simplesmente Magic, é um jogo de cartas colecionáveis (TCG, Trading Card Game) criado por Richard Garfield, no qual os jogadores utilizam um baralho de cartas construído de acordo com o seu modo individual de jogo para tentar vencer o baralho adversário. Em 2003, na comemoração do aniversário de 10 anos de lançamento do Magic, a revista "Games" selecionou-o para o seu Hall da Fama[1]. Criado em 1993, Magic foi o primeiro TCG produzido e continuado até hoje, quando conta com aproximadamente 12 milhões de jogadores ao redor do mundo.
+      </p>
+    </section>
+  </div>
+</body>
